@@ -31,10 +31,10 @@ function idok(id){
 
 		</script>
 	</c:when>
+	
 	<c:otherwise>
 		${userid}는 사용 가능한 아이디입니다.
-		<input type="button" value="사용" onClick="idok('${userid}');"/>
-		
+		<input type="button" value="사용" onClick="idok('${userid}');"/>	
 	</c:otherwise>
 </c:choose>
 
