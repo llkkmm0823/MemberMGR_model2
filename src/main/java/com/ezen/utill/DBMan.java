@@ -10,8 +10,8 @@ public class DBMan {
 
 	static String url = "jdbc:oracle:thin:@localhost:1521:xe";
 	static String driver = "oracle.jdbc.driver.OracleDriver";
-	static String id = "scott";
-	static String pwd = "tiger";
+	static String id = "scott"; //db ID 입력
+	static String pwd = "tiger"; //DB PW입력
 
 	public static Connection getConnection() {
 		Connection con = null;
