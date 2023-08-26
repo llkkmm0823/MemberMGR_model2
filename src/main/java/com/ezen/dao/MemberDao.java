@@ -16,7 +16,9 @@ public class MemberDao {
 	private static MemberDao itc = new MemberDao();
 	public static MemberDao getInstance() {return itc;}
 	
-	Connection con=null;
+	//연결설정
+
+ Connection con=null;
 	PreparedStatement pstmt=null;
 	ResultSet rs =null;
 	
